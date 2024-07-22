@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1DB954;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #1DB954;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    background: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background: #3E3E3E;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+input[type="text"]::placeholder {
+    color: #B3B3B3;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #17a845;
+}
+
+#search {
+    margin-bottom: 20px;
+    background: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+#vinylList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#vinylList li {
+    background: #282828;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+#vinylList img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+#vinylList strong {
+    color: #1DB954;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background: #3E3E3E;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#searchInput::placeholder {
+    color: #B3B3B3;
+}
